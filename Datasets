@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("benjaminlundkvist/steam-sales-historical-dataset")
+
+print("Path to dataset files:", path)
